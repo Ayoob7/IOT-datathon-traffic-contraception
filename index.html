@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <title>Traffic Congestion Solution</title>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <h1>Solution for the traffic congestion</h1>
+        </div>
+        <img src="images/download.png">
+        <div data-role="content" data-theme="j">
+            <h1>This is based on the traffic data on a few cities in the USA</h1>
+            <ul data-role="listview" data-inset="true" data-theme="b">
+                <li><a href="pages/usa_heatmap.html" data-ajax="false">Interactive HeatMap of the traffic data</a></li>
+                <li><a href="#statistics">Forecasts in Traffic Congestion</a></li>
+                <li><a href="#trending">Trends in Traffic Congestion</a></li>
+            </ul>
+        </div>
+        <div data-role="footer">
+            <h1>Data used is  derived using artificial intelligence via the TrafficLand system called TrafficVisionPulse</h1>
+        </div>
+    </div>
+
+    <div data-role="page" id="statistics">
+        <div data-role="header">
+            <h1>Forecasts for each city and overall data.</h1>
+        </div>
+        <img src="images/forecase.png">
+        <div data-role="content">
+            <ul data-role="listview" data-inset="true" data-theme="b">
+                <li><a href="pages/overall/statistics.html" data-ajax="false">Overall</a></li>
+                <li><a href="pages/california/statistics.html" data-ajax="false">California</a></li>
+                <li><a href="pages/florida/statistics.html" data-ajax="false">Florida</a></li>
+                <li><a href="pages/michigan/statistics.html" data-ajax="false">Michigan</a></li>
+                <li><a href="pages/newyork/statistics.html" data-ajax="false">New York</a></li>
+                <li><a href="pages/santaClara/statistics.html" data-ajax="false">Santa Clara</a></li>
+                <li><a href="pages/virginia/statistics.html" data-ajax="false">Virginia</a></li>
+                <li><a href="pages/washington/statistics.html" data-ajax="false">Washington</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div data-role="page" id="trending">
+        <div data-role="header">
+            <h1>Traffic trends for each city and overall data.</h1>
+        </div>
+        <img src="images/trend.png">
+        <div data-role="content">
+            <ul data-role="listview" data-inset="true" data-theme="b">
+                <li><a href="pages/overall/trends.html" data-ajax="false">Overall</a></li>
+                <li><a href="pages/california/trends.html" data-ajax="false">California</a></li>
+                <li><a href="pages/florida/trends.html" data-ajax="false">Florida</a></li>
+                <li><a href="pages/michigan/trends.html" data-ajax="false">Michigan</a></li>
+                <li><a href="pages/newyork/trends.html" data-ajax="false">New York</a></li>
+                <li><a href="pages/santaClara/trends.html" data-ajax="false">Santa Clara</a></li>
+                <li><a href="pages/virginia/trends.html" data-ajax="false">Virginia</a></li>
+                <li><a href="pages/washington/trends.html" data-ajax="false">Washington</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
